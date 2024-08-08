@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Expenses e = new Expenses("Dinner", 15);
-        System.out.println(e.getExpense("Dinner"));
+        Scanner sc = new Scanner(System.in);
 
+
+        System.out.println("Budget Tracker");
+        System.out.println("--------------");
+
+        String ex = sc.nextLine();
+        double am = sc.nextDouble();
     }
 }
